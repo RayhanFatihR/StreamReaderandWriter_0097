@@ -16,6 +16,7 @@ int main()
     }
     catch(...) 
     {
-        
+        /*jika selain interger makan block ini akan dieksekusi*/
+        cout << "default pengecualian dieksekusi" << endl;
     }
 }
