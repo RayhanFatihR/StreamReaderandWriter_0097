@@ -11,6 +11,11 @@ int main()
     }
     catch(int a)
     {
-        //blok 
+        //blok ini akan dieksekusi
+        cout << "Pengecualian akan dieksekusi" << endl;
+    }
+    catch(...) 
+    {
+        
     }
 }
